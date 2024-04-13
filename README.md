@@ -49,6 +49,8 @@ The Login Form is a critical component of the application as it serves as the in
 - Enhanced Styling: Given more time, I would refine the UI with more sophisticated styling to improve the overall user experience.
 - Additional Features: Implementation of features like "Forgot Password" or "Remember Me" to enhance the user convenience.
 - Unit and Integration Tests: More comprehensive test coverage to ensure all edge cases are handled correctly.
+- Make separate component for form inputs (TextInput, PasswordInput, EmailInput, TextArea, and etc), to make them reusable in other form, easy styling and testing
+- Make UI components including Typography, Buttons-kit(submit, danger, primary, secondary, link and etc)
 
 # Maintaining Bug-Free Production
 - Testing
@@ -56,7 +58,7 @@ The Login Form is a critical component of the application as it serves as the in
 - Manual Testing: Regularly perform manual testing to catch any edge cases not covered by automated tests.
 
 ## Monitoring and Logging
-- Error Tracking: Implement error tracking tools to monitor and log any errors that occur in production.
+- Error Tracking: Implement error tracking tools to monitor and log any errors that occur in production (f.e Sentry - https://sentry.io/welcome/)
 - Performance Monitoring: Monitor the performance of the login process to identify and rectify any bottlenecks.
 
 ## Code Reviews and Quality Assurance
